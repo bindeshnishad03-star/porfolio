@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY PORTFOLIO </title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(65, 3, 112);
+    color: white;
+    font-family:sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(27, 2, 50);
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    color: white;
+    font-size: 10px;
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(153,153,226);
+    font-size: 1rem;
+}
+Section{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:130px 0;
+}
+.firstSection > div{
+    width: 30%;
+}
+main hr{
+    border:0;
+    height: 1.2px;
+    margin: 40px 84px;
+    background-color: rgb(153,153,226);
+}
+ .leftSection{
+    
+    font-size: 3rem;
+    
+    margin: 50px;
+    width: 30%;
+}
+.rightSection {
+    
+
+    width:30%;
+    
+}
+img{
+    width: 80%;
+    height: 80%;
+}
+.purple{
+color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+    
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;;
+
+}
+#h1{
+    font-size: 1.5rem;
+    
+    
+}
+footer{
+    display: flex;
+    background-color: rgb(39 27 52);
+    height: 253px;
+    text-align: center;
+    color: white;
+
+}
+.first{
+    margin: 20px 122px;;
+    display: flex;
+}
+.second{
+    padding: 23px 122px;
+
+    
+}
+#skill{
+    position: absolute; 
+    left: 300px; 
+    top: 1050px;
+    display:block;
+    
+}
+#skill li{
+    list-style: circle;
+    font-size: 15px;
+}
+    </style>
+</head>
+
+
+<body>
+    <header>
+    <nav>
+        <div class="left">MY PORTFOLIO</div>
+        <div class="right">
+            <ul>
+             <li><a href="/">HOME</a></li>
+             <li><a href="/">ABOUT ME</a></li>
+             <li><a href="/">SERVICES</a></li>
+             <li><a href="/">SKILL</a></li>
+             <li><a href="/">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="fistSection">
+        
+        <div class="leftSection"> Hi, I am  <span class="purple">BINDESH </span> 
+        <div>I am a PASSIONATE </div>
+
+        <div>WEB DEVELOPER. </div>
+          <span id="element"></span>
+          
+
+    </div>
+    
+        <div class="rightSection">
+            <img src="web.png" alt="">
+        </div>
+        
+    </section>
+    <hr>
+    <section>
+        <section class="secondsection">
+            <h1 style="position: absolute;left: 300px; top: 750px;"  >ABOUT ME</h1>
+    <P style=" font-size:20px; position: absolute; left: 300px; top: 800px;">I am a web developer intern in codsoft.I want to secure my future as a Software Engineer. </P>
+    <br>
+   
+    <p style=" font-size: 15px; width: 780px; position: absolute; left: 300px; top: 850px;"> Software developers use software development tools and languages to write, edit, maintain and test cmputer software.
+        Software developers improve and maintain the working order of existing software.Software developers follow the software development lifecycle (SDCL) to plan, design, build,test
+        and deploy software applications,rangig from websites and mobile applications and video games. 
+    </p>
+    <br>
+     <div>
+    <h2 style="position: absolute; left: 300px; top: 1000px;"> SKILL</h2>
+    
+    <ul id="skill">
+          <li >WEB DEVELOPMENT</li>
+          <img src="webd.png" alt="" style="height: 100px;">
+          <br>
+        <li> C & C++ </li>
+        <br>
+
+        <li>JAVA BASICS</li>
+        <img src="java.webp" alt="" style="height: 100px;" >
+        
+        <br>
+        <li>VIDEO EDITING</li>
+        
+        
+    </ul> 
+    <br>
+    
+ 
+    </section>
+    <img src="skill.webp" alt="" style="position: absolute;left:1000px;top:900px;height: 400px; width: 400px;" >
+    
+    
+
+</main>
+
+   
+<footer>
+    <div class="flex">
+        <div class="first">
+        
+             <h3>BINDESH's developer portfolio</h3>
+        </div>
+       
+    <div class="second">
+ 
+Made with &hearts; by BINDESH <br>
+    &#169; wwww.bindeshportfolio.com
+        </div>
+        
+    </div>
+    <div style="position: absolute; left: 800px; top: 1590px;">
+        <h2>CONTACT ME</h2>
+        <br>
+        
+            <a>Mobile No: 90......08</a>
+            <br>
+            <br>
+            <a href="https://www.linkedin.com/in/bindesh-nishad-8689b2323?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkdIn:bindesh_nishad</a>
+        
+    </div>
+
+</footer>
+
+    
+
+<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['WEB DEVELOPER', 'WEB DESIGNER','VIDEO EDITOR'],
+      typeSpeed: 50,
+    });
+  </script>
+    
+</body>
+</html>
